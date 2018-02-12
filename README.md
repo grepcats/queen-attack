@@ -23,3 +23,7 @@
 *_Queen should move to new coordinates if able to attack_
   *_Input: true_
   *_Output: Queen is assigned new X & Y._
+
+*_Class should not take coordinates that are outside the board
+  *_Input: -1, -1
+  *_Output: Get out of here.

@@ -16,7 +16,24 @@ namespace QueenAttack.Models
 
     public int GetX()
     {
-      return 5;
+      return _XCoord;
+    }
+
+    public int GetY()
+    {
+      return _YCoord;
+    }
+
+    public bool CanAttackHorizontal(int attackY, int targetY)
+    {
+      if (attackY == targetY)
+      {
+        return true;
+      }
+      else
+      {
+        return false;
+      }
     }
 
   }
