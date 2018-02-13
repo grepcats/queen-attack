@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+</head>
+  <body>
+    <div class="container text-center">
+      <h1>Queen Attack</h1>
+      <h2>Enter your queen's position and YOUR ENEMY'S queen's position and we'll tell you if you can atatc</h2>
+      <form method="post" action="/queen-attack">
+        <div class="form-group">
+          <label for="attack-x">Your queen's X coordinate</label>
+          <input name="attack-x" type="text">
+        </div>
+        <div class="form-group">
+          <label for="attack-y">Your queen's Y coordinate</label>
+          <input name="attack-y" type="text">
+        </div>
+        <div class="form-group">
+          <label for="target-x">YOUR ENEMY'S X coordinate</label>
+          <input name="target-x" type="text">
+        </div>
+        <div class="form-group">
+          <label for="target-y">YOUR ENEMY'S Y coordinate</label>
+          <input name="target-y" type="text">
+        </div>
+        <button type="submit" class="btn btn-danger">ATTAC</button>
+      </form>
+    </div>
+  </body>
+</html>
